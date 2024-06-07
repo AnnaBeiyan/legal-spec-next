@@ -1,7 +1,7 @@
 export default defineAppConfig({
   socials: {
     twitter: '',
-    github: '',
+    github: 'https://github.com/AnnaBeiyan/legal-spec-next',
     mastodon: '',
   },
   nuxtIcon: {
