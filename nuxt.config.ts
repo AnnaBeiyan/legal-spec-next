@@ -23,11 +23,12 @@ export default defineNuxtConfig({
       }
     }
   },
-  nitro: {
-    debug: true,
-    prerender: {
-      crawlLinks: true,
-      concurrency: 1,
-    },
-  },
+  // nitro: {
+  //   prerender: {
+  //     crawlLinks: true,
+  //   },
+  // },
+  app:{
+    baseURL:'/legal-spec-next/'//如果需要部署到二级目录
+  }
 })
