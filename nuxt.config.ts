@@ -14,7 +14,6 @@ export default defineNuxtConfig({
   },
   // https://content.nuxtjs.org
   content: {
-    documentDriven: true,
     highlight: {
       langs: ['json', 'js', 'ts', 'html', 'css', 'vue', 'shell', 'mdc', 'md', 'yaml','diff'],
       // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
